@@ -28,6 +28,7 @@ jobs:
         python -m pip install --upgrade pip
     - name: Execute files
       run: |
+        print("Action finished.")
         bash execute-me.py
         bash execute-me.sh
         echo "Action finished."
