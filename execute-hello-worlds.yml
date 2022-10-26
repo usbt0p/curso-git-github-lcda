@@ -30,3 +30,4 @@ jobs:
       run: |
         bash execute-me.py
         bash execute-me.sh
+        echo "Action finished."
